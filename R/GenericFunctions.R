@@ -15,6 +15,7 @@
 #' @importFrom stats as.dist complete.cases cor cutree hclust kmeans model.matrix sd time
 #' @importFrom utils capture.output read.table
 #' @importFrom methods new validObject
+#' @importFrom methods as is
 NULL
 
 counts.TCA <- function(object, normalization = "none", lib.norm = TRUE,
